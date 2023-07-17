@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f5f7;
+}
+
+main{
+  background-color: #f3f5f7;
+  height: 100vh; /* Define a altura da div como 100% da altura do viewport */
+  min-height: 100vh;
+}
+
+nav {
+  background: linear-gradient(45deg, #574AE8 0%, #3EA1DB 100%);
+  color: white;
+  color: #FFF;
+  text-align: right;
+  font-family: Lexend Deca;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: white;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+#input-field {
+  flex: 1;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+article {
+  background-color: #ffffff;
+}
+
+#coracao {
+  color: #6c61eb;
+}
+
+#text-card {
+  color: #717171;
+}
+
+/* Responsividade */
+/* Estilos para telas pequenas (dispositivos móveis) */
+@media (max-width: 576px) {
+  /* Estilos aqui */
+  #navage{
+    width: 100%;
+  }
+  .artigo{
+    width: 100%;
+  }
+  main{
+    background-color: #f3f5f7;
+    height: 100vh; /* Define a altura da div como 100% da altura do viewport */
+    min-height: 100vh;
+  }
+}
+
+/* Estilos para telas médias (tablets e dispositivos com tela um pouco maior) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Estilos aqui */
+  #navage{
+    width: 75%;
+  }
+  .artigo{
+    width: 75%;
+  }
+  main{
+    background-color: #f3f5f7;
+    height: 100vh; /* Define a altura da div como 100% da altura do viewport */
+    min-height: 100vh;
+  }
+}
+
+/* Estilos para telas grandes (desktops e dispositivos com tela maior) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Estilos aqui */
+  #navage{
+    width: 75%;
+  }
+  .artigo{
+    width: 75%;
+  }
+  main{
+    background-color: #f3f5f7;
+    height: 100vh; /* Define a altura da div como 100% da altura do viewport */
+    min-height: 100vh;
+  }
+}
+
+/* Estilos para telas extra grandes (dispositivos com tela muito grande) */
+@media (min-width: 993px) {
+  /* Estilos aqui */
+  #navage{
+    width: 50%;
+  }
+  .artigo{
+    width: 50%;
+  }
+  main{
+    background-color: #f3f5f7;
+    height: 100vh; /* Define a altura da div como 100% da altura do viewport */
+    min-height: 100vh;
+  }
+}
